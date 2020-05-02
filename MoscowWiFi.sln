@@ -5,6 +5,12 @@ VisualStudioVersion = 16.0.29926.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowWiFi.Core", "MoscowWiFi.Core\MoscowWiFi.Core.csproj", "{48F9FCBF-CDEC-461E-88D4-ED5D977FE936}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowWiFi.ApiClient", "MoscowWiFi.ApiClient\MoscowWiFi.ApiClient.csproj", "{1EBF966C-8457-4CB0-9CFF-A25F2BDBAD8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowWiFi.LocalStorage", "MoscowWiFi.LocalStorage\MoscowWiFi.LocalStorage.csproj", "{D50A9E99-BB61-4050-8C8C-161CAACE16E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoscowWiFi.DesktopClient", "MoscowWiFi.DesktopClient\MoscowWiFi.DesktopClient.csproj", "{06E5DF1A-BC2C-4BA8-B6A2-750EF7F5AA04}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +21,18 @@ Global
 		{48F9FCBF-CDEC-461E-88D4-ED5D977FE936}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{48F9FCBF-CDEC-461E-88D4-ED5D977FE936}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{48F9FCBF-CDEC-461E-88D4-ED5D977FE936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EBF966C-8457-4CB0-9CFF-A25F2BDBAD8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EBF966C-8457-4CB0-9CFF-A25F2BDBAD8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EBF966C-8457-4CB0-9CFF-A25F2BDBAD8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EBF966C-8457-4CB0-9CFF-A25F2BDBAD8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D50A9E99-BB61-4050-8C8C-161CAACE16E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D50A9E99-BB61-4050-8C8C-161CAACE16E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D50A9E99-BB61-4050-8C8C-161CAACE16E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D50A9E99-BB61-4050-8C8C-161CAACE16E8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{06E5DF1A-BC2C-4BA8-B6A2-750EF7F5AA04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{06E5DF1A-BC2C-4BA8-B6A2-750EF7F5AA04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{06E5DF1A-BC2C-4BA8-B6A2-750EF7F5AA04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{06E5DF1A-BC2C-4BA8-B6A2-750EF7F5AA04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
