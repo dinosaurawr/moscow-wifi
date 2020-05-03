@@ -2,10 +2,10 @@ using RestSharp;
 
 namespace MoscowWiFi.WebClient
 {
-    public static class APIClient
+    public static class ApiClient
     {
         public static readonly RestClient Client;
-        static APIClient()
+        static ApiClient()
         {
             Client = new RestClient(APISettings.BaseURL) {Authenticator = new QueryParamsAuthenticator()};
         }

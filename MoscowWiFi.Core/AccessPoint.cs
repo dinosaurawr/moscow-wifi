@@ -6,6 +6,7 @@ namespace MoscowWiFi.Core
 {
     public class AccessPoint
     {
+        public int GlobalId { get; set; }
         public string Name { get; set; }
         public string AdmArea { get; set; }
         public string District { get; set; }
