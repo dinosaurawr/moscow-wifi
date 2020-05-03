@@ -16,6 +16,15 @@ namespace MoscowWiFi.LocalStorage
         }
 
         public DbSet<AccessPoint> AccessPoints { get; set; }
-        public DbSet<string> LastUpdate { get; set; }
+        public DbSet<LastUpdateDate> LastUpdate { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<AccessPoint>()
+                .HasKey(ap => ap.GlobalId);
+
+            modelBuilder.Entity<LastUpdateDate>()
+                .HasNoKey();
+        }
     }
 }

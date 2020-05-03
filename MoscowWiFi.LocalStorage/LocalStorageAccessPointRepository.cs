@@ -27,10 +27,9 @@ namespace MoscowWiFi.LocalStorage
             return context.AccessPoints.ToList();
         }
         
-        public bool ShouldAccessPointsSyncWithDataset(DateTime lastDatasetUpdateTime)
+        public bool ShouldLocalStorageSyncWithDataset(DateTime lastDatasetUpdateTime)
         {
-            var stringLastUpdate = _context.LastUpdate.FirstOrDefault() ?? DateTime.Now.ToString();
-            var lastUpdate = DateTime.Parse(stringLastUpdate);
+            var lastUpdate = _context.LastUpdate.FirstOrDefault().Value;
             return lastUpdate < lastDatasetUpdateTime;
         }
 
